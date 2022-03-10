@@ -17,8 +17,10 @@ public class MenuUIHandler : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        isGameActive = false;
         Instance = this;
         textBoxPlayerName.GetComponent<InputField>();
+        
     }
 
     // Update is called once per frame
@@ -28,6 +30,6 @@ public class MenuUIHandler : MonoBehaviour
         isGameActive = true;
         playerName = textBoxPlayerName.text;
         
-        
+
     }
 }
