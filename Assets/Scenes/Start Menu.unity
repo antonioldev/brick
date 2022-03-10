@@ -639,7 +639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerName: 
-  textBoxPlayerName: {fileID: 1092490686}
+  textBoxPlayerName: {fileID: 1092490688}
 --- !u!1 &1913972064
 GameObject:
   m_ObjectHideFlags: 0
